@@ -1,0 +1,8 @@
+
+    Name: Candidate_5
+    Skills: Java, Project Management, AWS, Data Analysis, Docker
+    Experience: 8 years in Docker
+    Education: B.E. Electronics
+    Worked at Accenture for 4 years.
+    Achieved won award.
+    

@@ -1,0 +1,7 @@
+
+    Job Title: Project Manager
+    Required Skills: Data Analysis, AWS, Communication, C++, HTML/CSS
+    Experience: 7 years
+    Education: MBA
+    Responsibilities: Develop and deploy solutions.
+    

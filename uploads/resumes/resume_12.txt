@@ -1,0 +1,8 @@
+
+    Name: Candidate_12
+    Skills: TensorFlow, C++, SQL, Communication, Java, Python, React
+    Experience: 8 years in React
+    Education: B.Sc. Computer Science
+    Worked at Accenture for 3 years.
+    Achieved increased efficiency.
+    

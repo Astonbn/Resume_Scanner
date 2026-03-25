@@ -1,0 +1,8 @@
+
+    Name: Candidate_17
+    Skills: Data Analysis, C++, JavaScript, Communication, Java
+    Experience: 2 years in Communication
+    Education: Ph.D. AI
+    Worked at Accenture for 3 years.
+    Achieved won award.
+    

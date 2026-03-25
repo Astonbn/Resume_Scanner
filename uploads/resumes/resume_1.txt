@@ -1,0 +1,8 @@
+
+    Name: Candidate_1
+    Skills: SQL, Project Management, Communication, Docker, JavaScript, HTML/CSS, TensorFlow, Python
+    Experience: 2 years in Communication
+    Education: B.Sc. Computer Science
+    Worked at Facebook for 5 years.
+    Achieved won award.
+    

@@ -1,0 +1,8 @@
+
+    Name: Candidate_9
+    Skills: C++, Leadership, Project Management, Communication, Java, JavaScript, Machine Learning, Docker
+    Experience: 7 years in C++
+    Education: MBA
+    Worked at Google for 3 years.
+    Achieved increased efficiency.
+    

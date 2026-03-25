@@ -1,0 +1,8 @@
+
+    Name: Candidate_3
+    Skills: Communication, TensorFlow, C++
+    Experience: 8 years in C++
+    Education: M.Sc. Data Science
+    Worked at Tesla for 4 years.
+    Achieved led team.
+    

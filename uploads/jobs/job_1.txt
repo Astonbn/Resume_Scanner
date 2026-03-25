@@ -1,0 +1,7 @@
+
+    Job Title: Project Manager
+    Required Skills: HTML/CSS, Docker, Communication, TensorFlow, Python, AWS
+    Experience: 6 years
+    Education: M.Sc. Data Science
+    Responsibilities: Develop and deploy solutions.
+    

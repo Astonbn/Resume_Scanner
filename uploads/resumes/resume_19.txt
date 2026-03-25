@@ -1,0 +1,8 @@
+
+    Name: Candidate_19
+    Skills: Project Management, Docker, Leadership, Python, TensorFlow, C++
+    Experience: 5 years in C++
+    Education: MBA
+    Worked at Facebook for 2 years.
+    Achieved won award.
+    

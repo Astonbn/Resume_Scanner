@@ -1,0 +1,8 @@
+
+    Name: Candidate_15
+    Skills: Leadership, Docker, JavaScript, Communication, C++, TensorFlow, SQL
+    Experience: 2 years in JavaScript
+    Education: B.E. Electronics
+    Worked at Amazon for 3 years.
+    Achieved increased efficiency.
+    

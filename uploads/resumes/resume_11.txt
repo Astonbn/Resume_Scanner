@@ -1,0 +1,8 @@
+
+    Name: Candidate_11
+    Skills: React, Python, Java, Communication, JavaScript, Docker, Project Management
+    Experience: 9 years in Python
+    Education: MBA
+    Worked at Accenture for 3 years.
+    Achieved won award.
+    

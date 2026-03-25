@@ -1,0 +1,7 @@
+
+    Job Title: Project Manager
+    Required Skills: Project Management, Leadership, Communication, HTML/CSS, C++
+    Experience: 5 years
+    Education: MBA
+    Responsibilities: Develop and deploy solutions.
+    

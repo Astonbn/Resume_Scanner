@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Resume Screener | HR Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <h2>Resume Screener</h2>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showSection('jobSection')">Job Description</a></li>
+                    <li><a href="#" onclick="showSection('resumeSection')">Upload Resumes</a></li>
+                    <li><a href="#" onclick="showSection('resultsSection')">Ranked Candidates</a></li>
+                    <li><a href="#" onclick="showSection('analyticsSection')">Analytics</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <!-- Job Section -->
+            <section id="jobSection" class="active">
+    <h2>Job Description</h2>
+    <form id="jobForm">
+        <input type="text" id="jobTitle" placeholder="Job Title" required>
+        <textarea id="jobDesc" rows="4" placeholder="Enter job requirements as bullet points (one per line)..." required></textarea>
+       <button type="submit" class="small-btn">Save Job</button>
+        <input type="hidden" id="editJobId" value="">
+    </form>
+    <div id="jobMessage"></div>
+    <h3>Saved Jobs</h3>
+    <div id="jobsList"></div>
+</section>
+
+            <!-- Resume Upload Section -->
+            <section id="resumeSection">
+                <h2>Upload Resumes</h2>
+                <div class="dropzone" id="dropzone">
+                    <p>Drag & drop files here or click to select</p>
+                    <input type="file" id="fileInput" multiple accept=".pdf,.docx,.txt" style="display:none">
+                </div>
+                <div id="uploadStatus"></div>
+                <div>
+                    <label for="jobSelect">Select Job:</label>
+                    <select id="jobSelect"></select>
+                    <button id="analyzeBtn">Run Analysis</button>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="resultsSection">
+                <h2>Ranked Candidates</h2>
+                <div id="filters">
+                    <label>Min Score: <input type="range" id="minScore" min="0" max="100" step="5" value="0"></label>
+                    <span id="scoreValue">0</span>
+                    <label>Skills: <input type="text" id="skillFilter" placeholder="Filter by skill"></label>
+                    <button id="exportBtn">Export CSV</button>
+                </div>
+                <table id="resultsTable">
+                    <thead>
+                       <th>Candidate</th><th>Score (%)</th><th>Matched Skills</th><th>Actions</th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+
+            <!-- Analytics Section -->
+            <section id="analyticsSection">
+                <h2>Analytics</h2>
+                <div class="charts">
+                    <canvas id="topSkillsChart" width="400" height="200"></canvas>
+                    <canvas id="scoreDistribution" width="400" height="200"></canvas>
+                </div>
+                <div id="analyticsData"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

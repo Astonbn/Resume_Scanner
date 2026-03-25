@@ -1,0 +1,8 @@
+
+    Name: Candidate_10
+    Skills: React, C++, Communication, Project Management, Python, Leadership, AWS, JavaScript
+    Experience: 8 years in React
+    Education: B.E. Electronics
+    Worked at IBM for 1 years.
+    Achieved increased efficiency.
+    

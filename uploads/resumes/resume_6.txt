@@ -1,0 +1,8 @@
+
+    Name: Candidate_6
+    Skills: Machine Learning, Leadership, Communication
+    Experience: 4 years in Machine Learning
+    Education: B.E. Electronics
+    Worked at Facebook for 4 years.
+    Achieved increased efficiency.
+    

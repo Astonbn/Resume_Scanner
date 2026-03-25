@@ -1,0 +1,8 @@
+
+    Name: Candidate_8
+    Skills: Communication, Python, TensorFlow, SQL
+    Experience: 8 years in Python
+    Education: M.Sc. Data Science
+    Worked at IBM for 4 years.
+    Achieved increased efficiency.
+    

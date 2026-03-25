@@ -1,0 +1,8 @@
+
+    Name: Candidate_14
+    Skills: Data Analysis, HTML/CSS, Docker, Leadership, Python, Communication, C++
+    Experience: 7 years in C++
+    Education: M.Sc. Data Science
+    Worked at IBM for 1 years.
+    Achieved led team.
+    

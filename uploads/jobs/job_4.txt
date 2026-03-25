@@ -1,0 +1,7 @@
+
+    Job Title: Project Manager
+    Required Skills: C++, SQL, AWS, Machine Learning, Communication
+    Experience: 7 years
+    Education: M.Sc. Data Science
+    Responsibilities: Develop and deploy solutions.
+    
