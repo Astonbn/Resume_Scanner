@@ -63,5 +63,5 @@ An AI‑powered web application for Human Resource managers to automatically ana
 
 1. **Clone the repository** (or download the source):
    ```bash
-   git clone https://github.com/yourusername/smart-resume-screener.git
+   git clone https://github.com/Astonbn/Resume_Scanner.git
    cd smart-resume-screener
