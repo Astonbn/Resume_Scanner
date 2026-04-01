@@ -1,8 +1,8 @@
 
     Name: Candidate_13
-    Skills: Project Management, C++, SQL, JavaScript, Java
-    Experience: 5 years in Project Management
-    Education: M.Sc. Data Science
-    Worked at Google for 1 years.
-    Achieved increased efficiency.
+    Skills: AWS, Docker, JavaScript, C++, TensorFlow
+    Experience: 10 years in JavaScript
+    Education: B.Sc. Computer Science
+    Worked at Microsoft for 1 years.
+    Achieved led team.
     

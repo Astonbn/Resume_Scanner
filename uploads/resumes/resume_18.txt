@@ -1,8 +1,8 @@
 
     Name: Candidate_18
-    Skills: Java, AWS, React, Python, Data Analysis
-    Experience: 4 years in Python
-    Education: B.Sc. Computer Science
-    Worked at IBM for 5 years.
-    Achieved led team.
+    Skills: HTML/CSS, Leadership, C++
+    Experience: 10 years in C++
+    Education: M.Sc. Data Science
+    Worked at Amazon for 5 years.
+    Achieved increased efficiency.
     

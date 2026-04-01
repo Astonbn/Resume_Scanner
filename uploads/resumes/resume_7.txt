@@ -1,8 +1,8 @@
 
     Name: Candidate_7
-    Skills: HTML/CSS, Project Management, Data Analysis, Communication
-    Experience: 5 years in HTML/CSS
+    Skills: SQL, Data Analysis, Leadership, AWS, Machine Learning, Project Management, HTML/CSS, Communication
+    Experience: 7 years in SQL
     Education: B.E. Electronics
-    Worked at IBM for 4 years.
-    Achieved won award.
+    Worked at Accenture for 1 years.
+    Achieved increased efficiency.
     

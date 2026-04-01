@@ -1,8 +1,8 @@
 
     Name: Candidate_9
-    Skills: C++, Leadership, Project Management, Communication, Java, JavaScript, Machine Learning, Docker
-    Experience: 7 years in C++
+    Skills: Communication, HTML/CSS, Project Management, Java, C++, SQL
+    Experience: 10 years in Java
     Education: MBA
     Worked at Google for 3 years.
-    Achieved increased efficiency.
+    Achieved led team.
     

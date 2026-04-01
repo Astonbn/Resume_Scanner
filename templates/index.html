@@ -12,23 +12,42 @@
     <div class="dashboard">
         <aside class="sidebar">
             <h2>Resume Screener</h2>
+            <div class="user-info">
+                <p>Welcome, {{ current_user.username }}</p>
+                <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="#" onclick="showSection('jobSection')">Job Description</a></li>
-                    <li><a href="#" onclick="showSection('resumeSection')">Upload Resumes</a></li>
-                    <li><a href="#" onclick="showSection('resultsSection')">Ranked Candidates</a></li>
-                    <li><a href="#" onclick="showSection('analyticsSection')">Analytics</a></li>
+                    <li><a href="#" onclick="showSection('jobSection')">📋 Job Description</a></li>
+                    <li><a href="#" onclick="showSection('resumeSection')">📄 Upload Resumes</a></li>
+                    <li><a href="#" onclick="showSection('resultsSection')">🏆 Ranked Candidates</a></li>
+                    <li><a href="#" onclick="showSection('analyticsSection')">📊 Analytics</a></li>
                 </ul>
             </nav>
         </aside>
         <main class="content">
             <!-- Job Section -->
-            <section id="jobSection" class="active">
+           <section id="jobSection" class="active">
     <h2>Job Description</h2>
     <form id="jobForm">
         <input type="text" id="jobTitle" placeholder="Job Title" required>
-        <textarea id="jobDesc" rows="4" placeholder="Enter job requirements as bullet points (one per line)..." required></textarea>
-       <button type="submit" class="small-btn">Save Job</button>
+
+        <label>Education / Qualification:</label>
+        <input type="text" id="jobEducation" placeholder="e.g., Bachelor's in Computer Science">
+
+        <label>Skills (comma separated):</label>
+        <textarea id="jobSkills" rows="2" placeholder="e.g., Python, Java, SQL, Machine Learning"></textarea>
+
+        <label>Experience (years):</label>
+        <input type="text" id="jobExperience" placeholder="e.g., 3-5 years">
+
+        <label>Licences Needed:</label>
+        <input type="text" id="jobLicences" placeholder="e.g., PMP, AWS Certified">
+
+        <label>Other Requirements:</label>
+        <textarea id="jobOther" rows="2" placeholder="Any additional requirements..."></textarea>
+
+        <button type="submit" class="small-btn">Save Job</button>
         <input type="hidden" id="editJobId" value="">
     </form>
     <div id="jobMessage"></div>
@@ -44,7 +63,7 @@
                     <input type="file" id="fileInput" multiple accept=".pdf,.docx,.txt" style="display:none">
                 </div>
                 <div id="uploadStatus"></div>
-                <div>
+                <div class="upload-controls">
                     <label for="jobSelect">Select Job:</label>
                     <select id="jobSelect"></select>
                     <button id="analyzeBtn">Run Analysis</button>
@@ -60,26 +79,58 @@
                     <label>Skills: <input type="text" id="skillFilter" placeholder="Filter by skill"></label>
                     <button id="exportBtn">Export CSV</button>
                 </div>
-                <table id="resultsTable">
-                    <thead>
-                       <th>Candidate</th><th>Score (%)</th><th>Matched Skills</th><th>Actions</th>
-                    </thead>
-                    <tbody></tbody>
-                </table>
+                <!-- Bulk actions toolbar (removed duplicate Schedule Interview button) -->
+                <div id="bulkActions" style="margin: 1rem 0;">
+                    <button id="bulkShortlist">✅ Shortlist</button>
+                    <button id="bulkReject">❌ Reject</button>
+                    <button id="bulkDelete">🗑️ Delete</button>
+                    <button id="bulkExportCSV">📎 Export CSV</button>
+                </div>
+                <div class="table-responsive">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr>
+                               <th><input type="checkbox" id="selectAll"></th>
+                               <th>Candidate</th>
+                               <th>Score (%)</th>
+                               <th>Matched Skills</th>
+                               <th>Missing Skills</th>
+                               <th>Exp Match</th>
+                               <th>Edu Match</th>
+                               <th>Licence Match</th>
+                               <th>Status</th>
+                               <th>Notes</th>
+                               <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
             </section>
 
             <!-- Analytics Section -->
             <section id="analyticsSection">
                 <h2>Analytics</h2>
                 <div class="charts">
-                    <canvas id="topSkillsChart" width="400" height="200"></canvas>
-                    <canvas id="scoreDistribution" width="400" height="200"></canvas>
+                    <canvas id="topSkillsChart" width="200" height="50"></canvas>
+                    <canvas id="scoreDistribution" width="200" height="50"></canvas>
                 </div>
                 <div id="analyticsData"></div>
             </section>
         </main>
     </div>
-
+    <!-- Interview Scheduling Modal -->
+    <div id="scheduleModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Schedule Interview</h3>
+            <p>Candidate: <span id="modalCandidateName"></span></p>
+            <label>Date: <input type="date" id="interviewDate" required></label><br><br>
+            <label>Time: <input type="time" id="interviewTime" required></label><br><br>
+            <label>Notes (optional):<br><textarea id="interviewNotes" rows="3" cols="40"></textarea></label><br><br>
+            <button id="submitInterviewBtn">Send Invitation</button>
+        </div>
+    </div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

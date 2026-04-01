@@ -1,8 +1,8 @@
 
     Name: Candidate_2
-    Skills: SQL, Java, Docker, Data Analysis, React, AWS, Project Management
-    Experience: 9 years in Data Analysis
-    Education: MBA
-    Worked at Facebook for 1 years.
+    Skills: AWS, TensorFlow, Project Management, Communication, Data Analysis
+    Experience: 10 years in AWS
+    Education: M.Sc. Data Science
+    Worked at Facebook for 3 years.
     Achieved won award.
     

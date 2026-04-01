@@ -1,8 +1,8 @@
 
     Name: Candidate_19
-    Skills: Project Management, Docker, Leadership, Python, TensorFlow, C++
-    Experience: 5 years in C++
-    Education: MBA
-    Worked at Facebook for 2 years.
+    Skills: JavaScript, React, Project Management
+    Experience: 10 years in JavaScript
+    Education: Ph.D. AI
+    Worked at Accenture for 5 years.
     Achieved won award.
     

@@ -1,8 +1,8 @@
 
     Name: Candidate_4
-    Skills: Docker, TensorFlow, Communication, Machine Learning, JavaScript, Data Analysis, C++
-    Experience: 1 years in Data Analysis
-    Education: M.Sc. Data Science
-    Worked at Microsoft for 5 years.
-    Achieved increased efficiency.
+    Skills: React, TensorFlow, Machine Learning, JavaScript, AWS, Data Analysis, Project Management, Communication
+    Experience: 5 years in Data Analysis
+    Education: MBA
+    Worked at Accenture for 2 years.
+    Achieved led team.
     

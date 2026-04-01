@@ -1,7 +1,7 @@
 
     Job Title: Data Scientist
-    Required Skills: Leadership, Docker, Data Analysis, AWS, HTML/CSS
-    Experience: 8 years
+    Required Skills: TensorFlow, Data Analysis, React, AWS, Java, Machine Learning
+    Experience: 3 years
     Education: Ph.D. AI
     Responsibilities: Develop and deploy solutions.
     

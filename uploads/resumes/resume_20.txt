@@ -1,8 +1,8 @@
 
     Name: Candidate_20
-    Skills: TensorFlow, Project Management, Docker, HTML/CSS, Leadership, Communication
-    Experience: 3 years in Communication
-    Education: B.Sc. Computer Science
-    Worked at Microsoft for 4 years.
-    Achieved increased efficiency.
+    Skills: Python, JavaScript, C++, React, Docker, Leadership, HTML/CSS
+    Experience: 5 years in Leadership
+    Education: Ph.D. AI
+    Worked at Google for 2 years.
+    Achieved led team.
     

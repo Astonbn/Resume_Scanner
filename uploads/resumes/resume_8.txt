@@ -1,8 +1,8 @@
 
     Name: Candidate_8
-    Skills: Communication, Python, TensorFlow, SQL
-    Experience: 8 years in Python
-    Education: M.Sc. Data Science
-    Worked at IBM for 4 years.
-    Achieved increased efficiency.
+    Skills: SQL, AWS, Data Analysis, Project Management, JavaScript, Docker, TensorFlow, Communication
+    Experience: 4 years in AWS
+    Education: B.E. Electronics
+    Worked at Facebook for 1 years.
+    Achieved won award.
     

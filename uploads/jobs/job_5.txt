@@ -1,7 +1,7 @@
 
-    Job Title: Project Manager
-    Required Skills: Data Analysis, AWS, Communication, C++, HTML/CSS
-    Experience: 7 years
-    Education: MBA
+    Job Title: AI Engineer
+    Required Skills: AWS, React, SQL, Docker
+    Experience: 3 years
+    Education: B.Sc. Computer Science
     Responsibilities: Develop and deploy solutions.
     

@@ -1,8 +1,8 @@
 
     Name: Candidate_14
-    Skills: Data Analysis, HTML/CSS, Docker, Leadership, Python, Communication, C++
-    Experience: 7 years in C++
+    Skills: Java, Machine Learning, Leadership, TensorFlow, Python
+    Experience: 5 years in Machine Learning
     Education: M.Sc. Data Science
-    Worked at IBM for 1 years.
+    Worked at Google for 3 years.
     Achieved led team.
     

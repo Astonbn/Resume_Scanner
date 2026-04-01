@@ -1,8 +1,8 @@
 
     Name: Candidate_16
-    Skills: AWS, Leadership, Project Management, React, HTML/CSS, Data Analysis, TensorFlow
-    Experience: 7 years in HTML/CSS
-    Education: Ph.D. AI
-    Worked at Amazon for 3 years.
-    Achieved led team.
+    Skills: Data Analysis, Python, Communication, AWS, HTML/CSS, JavaScript, Docker, C++
+    Experience: 5 years in AWS
+    Education: B.Sc. Computer Science
+    Worked at Tesla for 3 years.
+    Achieved won award.
     

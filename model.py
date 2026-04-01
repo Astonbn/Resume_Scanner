@@ -43,3 +43,4 @@ class ResumeMatcher:
         resume_vector = self.vectorizer.transform([cleaned_resume])
         similarity = cosine_similarity(resume_vector, self.jd_vector)[0][0]
         return round(similarity * 100, 2)   # percentage score
+    

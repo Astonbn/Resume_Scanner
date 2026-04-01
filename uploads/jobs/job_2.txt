@@ -1,7 +1,7 @@
 
-    Job Title: Project Manager
-    Required Skills: Project Management, Leadership, Communication, HTML/CSS, C++
-    Experience: 5 years
-    Education: MBA
+    Job Title: Software Engineer
+    Required Skills: Python, TensorFlow, Data Analysis, Docker, AWS, HTML/CSS
+    Experience: 8 years
+    Education: Ph.D. AI
     Responsibilities: Develop and deploy solutions.
     
